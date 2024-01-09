@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+.container_header {
+    padding: 0.3rem;
+    height: 100vh;
+    color: #fff;
+    background-color: #362f2f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: .3rem;
+}
+
+.container_h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container_h2 {
+    text-align: center;
+}
+
+.text{
+    margin: 0 0.3rem;
+    color: black;
+    background-color: #a79d9d;
+    width: 10%;
+}
+
+.keys__mapping_key {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0.6rem 0.3rem;
+}
+
+.keys {
+    padding: 0.5rem 0.8rem;
+    border: 3px solid #8a8787;
+    border-radius: 0.4rem;
+}
+
+.container__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__header_img {
+    padding: 3rem;
+    width: 60%;
+}
+
+.container__main_btns {
+    width: 4%;
+    padding: 12rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+
+.key_crash {
+    position: relative;
+    right: 16rem;
+}
+
+.key_ride {
+    position: relative;
+    right: 9rem;
+    bottom: 2rem;
+}
+
+.key_floor-tom {
+    position: relative;
+    right: 9rem;
+    top: 6rem;
+}
+
+.key_mid-tom {
+    position: relative;
+    bottom: 3.5rem;
+    right: 4rem;
+}
+
+.key_high-tom {
+    position: relative;
+    bottom: 5rem;
+    left: 4rem;
+}
+
+.key_kick {
+    position: relative;
+    right: 2rem;
+    top: 3rem;
+}
+
+.key_kick2 {
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+
+.key_share {
+    position: relative;
+    bottom: 8rem;
+    left: 9rem;
+}
+
+.key_hit-hat-open {
+    position: relative;
+    bottom: 63vh;
+    left: 10rem;
+}
+
+.key_hit-hat-closed {
+    position: relative;
+    bottom: 27rem;
+    left: 16rem;
+}
