@@ -42,7 +42,7 @@ body {
     padding: 0.6rem 0.3rem;
 }
 
-.keys {
+.keys, .btn {
     padding: 0.5rem 0.8rem;
     border: 3px solid #8a8787;
     border-radius: 0.4rem;
